@@ -64,7 +64,9 @@ export function Musculation() {
             <Text>Fortalecimento dos ossos, prevenindo doenças como a osteoporose.</Text>
           </InfoItem>
         </InfoList>
-        <Button>
+        <Button
+          onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+        >
           Venha nos visitar e comece seu treino agora
           <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
         </Button>

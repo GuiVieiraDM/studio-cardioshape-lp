@@ -64,7 +64,9 @@ export function Pilates() {
             <Text>Redução do estresse, ajudando na concentração e no bem-estar mental.</Text>
           </InfoItem>
         </InfoList>
-        <Button>
+        <Button
+          onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+        >
           Experimente o Pilates e transforme seu corpo e mente
           <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
         </Button>

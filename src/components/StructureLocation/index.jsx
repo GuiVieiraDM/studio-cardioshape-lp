@@ -24,7 +24,10 @@ export function StructureLocation() {
             <Text>Estacionamento: <strong>Sim, estacionamento disponível.</strong></Text>
           </InfoItem>
         </InfoList>
-        <Button className="webLocalizationCTA">
+        <Button 
+          onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+          className="webLocalizationCTA"
+        >
           Venha nos visitar! Agende sua aula agora
           <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
         </Button>
@@ -42,7 +45,10 @@ export function StructureLocation() {
         ></iframe>
       </MapContainer>
 
-      <Button className="mobileLocalizationCTA">
+      <Button 
+        onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+        className="mobileLocalizationCTA"
+      >
         Venha nos visitar! Agende sua aula agora
         <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
       </Button>
