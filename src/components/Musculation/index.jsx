@@ -4,9 +4,9 @@ import { Container, Carousel, CarouselImage, Content, Title, Text, InfoList, Inf
 import { useState, useRef, useEffect  } from "react";
 
 const images = [
-  "/src/assets/Musculação 01.jpeg",
-  "/src/assets/Musculação 02.jpeg",
-  "/src/assets/Musculação 03.jpeg",
+  "../src/assets/musculation1.jpeg",
+  "../src/assets/musculation2.jpeg",
+  "../src/assets/musculation3.jpeg",
 ];
 
 export function Musculation() {
@@ -68,7 +68,7 @@ export function Musculation() {
           onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
         >
           Venha nos visitar e comece seu treino agora
-          <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
+          <img src="../src/assets/arrow-right.svg" alt="seta para seguir" />
         </Button>
       </Content>
     </Container>

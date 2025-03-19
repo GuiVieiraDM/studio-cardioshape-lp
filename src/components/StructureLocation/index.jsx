@@ -50,7 +50,7 @@ export function StructureLocation() {
         className="mobileLocalizationCTA"
       >
         Venha nos visitar! Agende sua aula agora
-        <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
+        <img src="../src/assets/arrow-right.svg" alt="seta para seguir" />
       </Button>
     </Container>
   );

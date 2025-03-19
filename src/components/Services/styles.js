@@ -103,12 +103,12 @@ export const Card = styled.button`
   }
 
   &.pilates:hover::after {
-    background-image: url("/src/assets/Pilates 02.jpeg");
+    background-image: url("../src/assets/pilates2.jpeg");
     opacity: 0.4;
   }
 
   &.musculacao:hover::after {
-    background-image: url("/src/assets/Musculação 02.jpeg");
+    background-image: url("../src/assets/musculation2.jpeg");
     opacity: 0.4;
   }
 

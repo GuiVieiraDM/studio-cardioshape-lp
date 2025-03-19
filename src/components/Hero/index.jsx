@@ -2,12 +2,12 @@ import { useState, useEffect } from "react";
 import { Container, Content, Logo, Title, Subtitle, Button, HeroImageWrapper, HeroImage, ImageOverlay } from "./styles";
 
 const images = [
-  "/src/assets/Musculação 01.jpeg",
-  "/src/assets/Musculação 02.jpeg",
-  "/src/assets/Musculação 03.jpeg",
-  "/src/assets/Pilates 01.jpeg",
-  "/src/assets/Pilates 02.jpeg",
-  "/src/assets/Pilates 03.jpeg",
+  "../src//assets/musculation1.jpeg",
+  "../src//assets/musculation2.jpeg",
+  "../src//assets/musculation3.jpeg",
+  "../src//assets/pilates1.jpeg",
+  "../src//assets/pilates2.jpeg",
+  "../src//assets/pilates3.jpeg",
 ];
 
 export function Hero() {

@@ -6,7 +6,7 @@ export function Diferentials() {
   return (
     <Container>
       <ImageContainer>
-        <img src="/src/assets/Musculação 03.jpeg" alt="Imagem do estúdio" />
+        <img src="../src/assets/musculation3.jpeg" alt="Imagem do estúdio" />
       </ImageContainer>
       <Content>
         <Title>Por que escolher o nosso estúdio?</Title>
