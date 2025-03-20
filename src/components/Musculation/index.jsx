@@ -2,11 +2,15 @@
 
 import { Container, Carousel, CarouselImage, Content, Title, Text, InfoList, InfoItem, BulletIcon, Button, Subtitle, CarouselTrack } from "./styles";
 import { useState, useRef, useEffect  } from "react";
+import musculation1 from '../../assets/musculation1.jpeg';
+import musculation2 from '../../assets/musculation2.jpeg';
+import musculation3 from '../../assets/musculation3.jpeg';
+import arrowRight from '../../assets/arrow-right.svg';
 
 const images = [
-  "../src/assets/musculation1.jpeg",
-  "../src/assets/musculation2.jpeg",
-  "../src/assets/musculation3.jpeg",
+  musculation1,
+  musculation2,
+  musculation3,
 ];
 
 export function Musculation() {
@@ -68,7 +72,7 @@ export function Musculation() {
           onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
         >
           Venha nos visitar e comece seu treino agora
-          <img src="../src/assets/arrow-right.svg" alt="seta para seguir" />
+          <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>
     </Container>

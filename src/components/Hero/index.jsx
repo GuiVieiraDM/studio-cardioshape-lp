@@ -1,13 +1,20 @@
 import { useState, useEffect } from "react";
 import { Container, Content, Logo, Title, Subtitle, Button, HeroImageWrapper, HeroImage, ImageOverlay } from "./styles";
+import musculation1 from '../../assets/musculation1.jpeg';
+import musculation2 from '../../assets/musculation2.jpeg';
+import musculation3 from '../../assets/musculation3.jpeg';
+import pilates1 from '../../assets/pilates1.jpeg';
+import pilates2 from '../../assets/pilates2.jpeg';
+import pilates3 from '../../assets/pilates3.jpeg';
+import arrowRight from '../../assets/arrow-right.svg';
 
 const images = [
-  "../src//assets/musculation1.jpeg",
-  "../src//assets/musculation2.jpeg",
-  "../src//assets/musculation3.jpeg",
-  "../src//assets/pilates1.jpeg",
-  "../src//assets/pilates2.jpeg",
-  "../src//assets/pilates3.jpeg",
+  musculation1,
+  musculation2,
+  musculation3,
+  pilates1,
+  pilates2,
+  pilates3,
 ];
 
 export function Hero() {
@@ -24,7 +31,7 @@ export function Hero() {
   return (
     <Container>
       <Content>
-        <Logo src="/public/logo.svg" alt="Logo da academia" />
+        <Logo src="/logo.svg" alt="Logo da academia" />
         <Title>Mais que uma academia, um espaço para cuidar da sua saúde!</Title>
         <Subtitle>
           Treinamento personalizado com acompanhamento profissional e sem risco de lesões. Venha conhecer!
@@ -33,7 +40,7 @@ export function Hero() {
           onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
         >
           Escolha seu plano e comece hoje mesmo
-          <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
+          <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>
 

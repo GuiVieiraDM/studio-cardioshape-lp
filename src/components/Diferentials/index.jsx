@@ -1,12 +1,13 @@
 // components/sections/SectionThree.tsx
 
 import { Container, Content, Title, List, ListItem, BulletIcon, Text, ImageContainer } from "./styles";
+import musculation3 from '../../assets/musculation3.jpeg';
 
 export function Diferentials() {
   return (
     <Container>
       <ImageContainer>
-        <img src="../src/assets/musculation3.jpeg" alt="Imagem do estúdio" />
+        <img src={musculation3} alt="Imagem do estúdio" />
       </ImageContainer>
       <Content>
         <Title>Por que escolher o nosso estúdio?</Title>

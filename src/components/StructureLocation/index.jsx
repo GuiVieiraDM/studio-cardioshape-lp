@@ -1,6 +1,7 @@
 // components/sections/SectionFour.tsx
 
 import { Container, Content, Title, Text, InfoList, InfoItem, BulletIcon, Button, MapContainer, Subtitle } from "./styles";
+import arrowRight from '../../assets/arrow-right.svg';
 
 export function StructureLocation() {
   return (
@@ -29,7 +30,7 @@ export function StructureLocation() {
           className="webLocalizationCTA"
         >
           Venha nos visitar! Agende sua aula agora
-          <img src="/src/assets/arrow-right.svg" alt="seta para seguir" />
+          <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>
 
@@ -50,7 +51,7 @@ export function StructureLocation() {
         className="mobileLocalizationCTA"
       >
         Venha nos visitar! Agende sua aula agora
-        <img src="../src/assets/arrow-right.svg" alt="seta para seguir" />
+        <img src={arrowRight} alt="seta para seguir" />
       </Button>
     </Container>
   );

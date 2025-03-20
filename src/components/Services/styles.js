@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import musculation2 from '../../assets/musculation2.jpeg';
+import pilates2 from '../../assets/pilates2.jpeg';
 
 export const Container = styled.section`
   padding: 80px 10%;
@@ -103,16 +105,16 @@ export const Card = styled.button`
   }
 
   &.pilates:hover::after {
-    background-image: url("../src/assets/pilates2.jpeg");
+    background-image: url(${pilates2});
     opacity: 0.4;
   }
 
   &.musculacao:hover::after {
-    background-image: url("../src/assets/musculation2.jpeg");
+    background-image: url(${musculation2});
     opacity: 0.4;
   }
 
   @media (max-width: 600px) {
-    width: auto;
+    width: 100%;
   }
 `;

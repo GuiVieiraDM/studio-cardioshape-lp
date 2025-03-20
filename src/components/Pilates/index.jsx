@@ -2,11 +2,15 @@
 
 import { Container, Carousel, CarouselImage, Content, Title, Text, InfoList, InfoItem, BulletIcon, Button, Subtitle, CarouselTrack } from "./styles";
 import { useState, useRef, useEffect  } from "react";
+import pilates1 from '../../assets/pilates1.jpeg';
+import pilates2 from '../../assets/pilates2.jpeg';
+import pilates3 from '../../assets/pilates3.jpeg';
+import arrowRight from '../../assets/arrow-right.svg';
 
 const images = [
-  "../src/assets/pilates1.jpeg",
-  "../src/assets/pilates2.jpeg",
-  "../src/assets/pilates3.jpeg",
+  pilates1,
+  pilates2,
+  pilates3,
 ];
 
 export function Pilates() {
@@ -68,7 +72,7 @@ export function Pilates() {
           onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
         >
           Experimente o Pilates e transforme seu corpo e mente
-          <img src="../src/assets/arrow-right.svg" alt="seta para seguir" />
+          <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>
     </Container>
