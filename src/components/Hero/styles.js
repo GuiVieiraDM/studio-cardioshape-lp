@@ -74,10 +74,12 @@ export const Button = styled.button`
   gap: 10px;
   margin-top: 20px;
   max-width: fit-content;
+  transition: 0.3s ease-in-out;
 
   &:hover {
-    background: ${(props) => props.theme.COLORS.ORANGE_DARK};
+    background: ${(props) => props.theme.COLORS.RED};
   }
+
 
   @media (max-width: 600px) {
     margin-top: 0;

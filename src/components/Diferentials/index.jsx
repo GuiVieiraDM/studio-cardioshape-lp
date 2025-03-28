@@ -10,7 +10,7 @@ export function Diferentials() {
         <img src={musculation3} alt="Imagem do estúdio" />
       </ImageContainer>
       <Content>
-        <Title>Por que escolher o nosso estúdio?</Title>
+        <Title>Por que escolher o nosso studio?</Title>
         <List>
           <ListItem>
             <BulletIcon />
@@ -30,7 +30,7 @@ export function Diferentials() {
           </ListItem>
           <ListItem>
             <BulletIcon />
-            <Text>Treinos Agendados: Sem superlotação, sem espera.</Text>
+            <Text>Treinos Agendados: Sem superlotação, sem espera, sendo no máximo 6 alunos/hora na musculação e 4 alunos/hora no pilates.</Text>
           </ListItem>
         </List>
       </Content>

@@ -69,9 +69,9 @@ export function Musculation() {
           </InfoItem>
         </InfoList>
         <Button
-          onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+          onClick={() => window.open("https://agendamento.nextfit.com.br/9181c853-af25-4bb4-8618-b31f91361a47", "_blank")}
         >
-          Venha nos visitar e comece seu treino agora
+          Faça uma aula grátis e comece seu treino agora
           <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>

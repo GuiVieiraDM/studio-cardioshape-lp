@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 
+import { CTASection } from "./components/CTASection"
 import { Diferentials } from "./components/Diferentials"
 import { Hero } from "./components/Hero"
 import { Musculation } from "./components/Musculation"
@@ -12,11 +13,12 @@ function App() {
   return (
     <div>
       <Hero />
-      <Services />
       <Diferentials />
+      <Services />
       <Musculation />
       <Pilates />
       <StructureLocation />
+      <CTASection />
     </div>
   )
 }

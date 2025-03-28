@@ -21,8 +21,8 @@ export function Services() {
         </Card>
 
         <Card className="pilates" onClick={() => scrollToSection("pilates-section")}>
-          <h3>Pilates para força, flexibilidade e reabilitação!</h3>
-          <p className="text"><strong>Tipos:</strong> Aparelho, Solo, Funcional</p>
+          <h3>Pilates para força e flexibilidade!</h3>
+          <p className="text"><strong>Tipos:</strong> Aparelho e Solo</p>
           <p className="text"><strong>Benefícios:</strong> Melhora da postura, fortalecimento muscular e bem-estar</p>
           <p className="cta">Saiba mais</p>
         </Card>

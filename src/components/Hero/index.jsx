@@ -37,9 +37,9 @@ export function Hero() {
           Treinamento personalizado com acompanhamento profissional e sem risco de lesões. Venha conhecer!
         </Subtitle>
         <Button
-          onClick={() => window.open("https://venda.nextfit.com.br/57925c69-c7d1-4a81-bb92-5465d612f244/contratos", "_blank")}
+          onClick={() => window.open("https://agendamento.nextfit.com.br/9181c853-af25-4bb4-8618-b31f91361a47", "_blank")}
         >
-          Escolha seu plano e comece hoje mesmo
+          Agende uma aula experimental
           <img src={arrowRight} alt="seta para seguir" />
         </Button>
       </Content>
